@@ -13,8 +13,8 @@ var testerDefinition = tester_definition.TesterDefinition{
 			TestFunc: antiCheatTest,
 		},
 	},
-	ExecutableFileName:       "your_program.sh",
-	LegacyExecutableFileName: "spawn_redis_server.sh",
+	ExecutableFileName:       "spawn_redis_server_ci.sh",
+	LegacyExecutableFileName: "spawn_redis_server_ci.sh",
 	TestCases: []tester_definition.TestCase{
 		{
 			Slug:     "jm1",
